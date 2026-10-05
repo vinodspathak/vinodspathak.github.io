@@ -1,6 +1,6 @@
 <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-        <nav id="site-nav" class="greedy-nav"> 
+        <nav id="site-nav" class="greedy-nav">
             <button class="hidden" count="0">
                 <div class="navicon"></div>
             </button>
@@ -9,7 +9,7 @@
                     <a href="./index.html" class="nav-link">Home</a>
                 </li>
                 <li class="masthead__menu-item">
-                    <a href="./Publications.html" class="nav-link">Publications/Conferences</a>
+                    <a href="./Publications.html" class="nav-link">Conferences/Publications</a>
                 </li>
                 <li class="masthead__menu-item">
                     <a href="./Teaching.html" class="nav-link">Teaching Assistance</a>
@@ -31,3 +31,17 @@
         </nav>
     </div>
 </div>
+
+<script>
+(function () {
+    var currentPage = window.location.pathname.split('/').pop() || 'index.html';
+
+    document.querySelectorAll('#site-nav .nav-link').forEach(function (link) {
+        var linkPage = link.getAttribute('href').split('/').pop();
+
+        if (linkPage === currentPage) {
+            link.parentElement.classList.add('active');
+        }
+    });
+})();
+</script>
