@@ -26,6 +26,7 @@
 	  ga('create', 'UA-96174454-1', 'auto');
 	  ga('send', 'pageview');
 	</script> 
+
 	<style>
 		.collaborator-container {
 			display: flex;
@@ -34,9 +35,11 @@
 			gap: 20px;
 			margin-bottom: 20px;
 		}
+
 		.collaborator-container div {
 			flex: 1;
 		}
+
 		.collaborator-container img {
 			max-width: 300px;
 			height: auto;
@@ -47,23 +50,31 @@
 
 <body>
 	<div class="masthead" id="header"></div>
+
 	<div id="main" role="main">
+
 		<div class="sidebar sticky">
 			<div itemscope itemtype="http://schema.org/Person">
+
 				<div class="author__avatar"> 
 					<img src="img/mypic.jpg" alt="Vinod S Pathak" style="width: 300px; height: auto;">
 				</div>
+
 				<div id="profile_intro" class="author__content"></div>
+
 				<div class="author__urls-wrapper" id="button"></div>
+
 			</div>
 		</div>
 
 		<article class="page">
+
 			<meta itemprop="headline" content="Activities">
-			<meta itemprop="description" content="Research, teaching, and professional activities">
+			<meta itemprop="description" content="Research and teaching activities">
 
 			<div class="page__inner-wrap">
 
+				<!-- Research Activities -->
 				<header>
 					<h1 class="page__title" itemprop="headline">Research Activities</h1>
 				</header>
@@ -72,20 +83,31 @@
 
 					<div class="collaborator-container">
 						<div>
-							<p>We recently developed a one-dimensional (1D) coupled soil-plant model to quantify fluxes in Soil-Plant-Atmosphere Continuum (SPAC). The model is open source and can be accessed <a href="https://github.com/vinodspathak/vSPAC-1D">here</a>.</p>
+							<p>
+								We recently developed a one-dimensional (1D) coupled soil-plant model to quantify fluxes in Soil-Plant-Atmosphere Continuum (SPAC). The model is open source and can be accessed 
+								<a href="https://github.com/vinodspathak/vSPAC-1D">here</a>.
+							</p>
 						</div>
+
 						<img src="img/ThesisFig.jpg" alt="ThesisFig" style="width: 250px; height: auto;">
 					</div>
+
 
 					<div class="collaborator-container">
 						<div>
 							<img src="img/Plant3D.jpg" alt="3DPlant" style="width: 400px; height: auto;">	
 						</div>
-						<p>We developed a new plant hydraulic model (v-shoot) that predicts plant water uptake by explicitly representing individual leaves in a three-dimensional canopy architecture. The model details can be found <a href="https://www.iitm.ac.in/happenings/events/explicit-3d-canopy-architecture-approach-model-plant-water-uptake-and">here</a></p>
+
+						<p>
+							We developed a new plant hydraulic model (v-shoot) that predicts plant water uptake by explicitly representing individual leaves in a three-dimensional canopy architecture. The model details can be found 
+							<a href="https://www.iitm.ac.in/happenings/events/explicit-3d-canopy-architecture-approach-model-plant-water-uptake-and">here</a>.
+						</p>
 					</div>
 
 				</section>
 
+
+				<!-- Teaching Assistance -->
 				<header>
 					<h1 class="page__title" itemprop="headline">Teaching Assistance</h1>
 				</header>
@@ -93,23 +115,41 @@
 				<section class="page__content" itemprop="text">
 
 					<p>
-						<ul>
-							<li>Introduction to Water Resources Engineering</li>
-							<li>Hydrologic Data Analysis and Modelling</li>
-							<li>Water Resources Planning and Management</li>
-							<li>Hydraulic Engineering Laboratory</li>
-							<li>Soil-Plant-Atmosphere Continuum</li>
-						</ul>
+						<b>Introduction to Water Resources Engineering</b><br>
+						Course Instructor: <a href="https://civil.iitm.ac.in/faculty/nbalaji/">Dr. Balaji Narasimhan</a>
+					</p>
+
+					<p>
+						<b>Hydrologic Data Analysis and Modelling</b><br>
+						Course Instructor: <a href="https://civil.iitm.ac.in/faculty/sreeparvathyvijay/">Dr. Sreeparvathy Vijay</a>
+					</p>
+
+					<p>
+						<b>Water Resources Planning and Management</b><br>
+						Course Instructor: <a href="https://civil.iitm.ac.in/faculty/ksrini/">Dr. K. Srinivasan</a>
+					</p>
+
+					<p>
+						<b>Hydraulic Engineering Lab</b><br>
+						Course Instructor: <a href="https://civil.iitm.ac.in/faculty/snkuiry/">Dr. S.N. Kuiry</a>
+					</p>
+
+					<p>
+						<b>Soil-Plant-Atmosphere Continuum</b><br>
+						Course Instructor: <a href="https://civil.iitm.ac.in/faculty/venkatraman/">Dr. Venkatraman Srinivasan</a>
 					</p>
 
 				</section>
+
 
 				<footer class="page__meta"></footer>
 
 			</div>
 		</article>
+
 	</div>
 
 	<script src="js/main.js"></script>
+
 </body>
 </html>
