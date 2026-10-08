@@ -40,7 +40,7 @@
 		.collaborator-container img {
 			max-width: 300px;
 			height: auto;
-			order: 2; /* Moves image to the right */
+			order: 2;
 		}
 	</style>
 </head>
@@ -57,14 +57,19 @@
 				<div class="author__urls-wrapper" id="button"></div>
 			</div>
 		</div>
+
 		<article class="page">
-			<meta itemprop="headline" content="About me">
-			<meta itemprop="description" content="About me">
+			<meta itemprop="headline" content="Activities">
+			<meta itemprop="description" content="Research, teaching, and professional activities">
+
 			<div class="page__inner-wrap">
+
 				<header>
 					<h1 class="page__title" itemprop="headline">Research Activities</h1>
 				</header>
+
 				<section class="page__content" itemprop="text">
+
 					<div class="collaborator-container">
 						<div>
 							<p>We recently developed a one-dimensional (1D) coupled soil-plant model to quantify fluxes in Soil-Plant-Atmosphere Continuum (SPAC). The model is open source and can be accessed <a href="https://github.com/vinodspathak/vSPAC-1D">here</a>.</p>
@@ -72,18 +77,39 @@
 						<img src="img/ThesisFig.jpg" alt="ThesisFig" style="width: 250px; height: auto;">
 					</div>
 
-                                        <div class="collaborator-container">
+					<div class="collaborator-container">
 						<div>
-						<img src="img/Plant3D.jpg" alt="3DPlant" style="width: 400px; height: auto;">	
+							<img src="img/Plant3D.jpg" alt="3DPlant" style="width: 400px; height: auto;">	
 						</div>
 						<p>We developed a new plant hydraulic model (v-shoot) that predicts plant water uptake by explicitly representing individual leaves in a three-dimensional canopy architecture. The model details can be found <a href="https://www.iitm.ac.in/happenings/events/explicit-3d-canopy-architecture-approach-model-plant-water-uptake-and">here</a></p>
 					</div>
 
 				</section>
+
+				<header>
+					<h1 class="page__title" itemprop="headline">Teaching Assistance</h1>
+				</header>
+
+				<section class="page__content" itemprop="text">
+
+					<p>
+						<ul>
+							<li>Introduction to Water Resources Engineering</li>
+							<li>Hydrologic Data Analysis and Modelling</li>
+							<li>Water Resources Planning and Management</li>
+							<li>Hydraulic Engineering Laboratory</li>
+							<li>Soil-Plant-Atmosphere Continuum</li>
+						</ul>
+					</p>
+
+				</section>
+
 				<footer class="page__meta"></footer>
+
 			</div>
 		</article>
 	</div>
+
 	<script src="js/main.js"></script>
 </body>
 </html>
